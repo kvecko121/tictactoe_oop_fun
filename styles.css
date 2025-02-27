@@ -1,0 +1,26 @@
+.game-board {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    margin: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+  text-align: center;
+}
+.box {
+  background: beige  ;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}

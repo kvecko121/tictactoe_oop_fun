@@ -8,8 +8,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Now, you are playing object oriented version of tic tac toe!</h1>
-    <p>Press this button to try functional version:</p>
-    <button>Functional Tic Tac Toe</button>
+    <h1 class="center">Now, you are playing object oriented version of tic tac toe!</h1>
+    <p class="center">Press this button to try functional version:</p>
+    <div  class="center">
+        <button >Functional Tic Tac Toe</button>
+    </div>
+    <div class="center">
+        <div class="game-board">
+            <div class="box" id="1">1</div>
+            <div class="box" id="2">2</div>
+            <div class="box" id="3">3</div>
+            <div class="box" id="4">4</div>
+            <div class="box" id="5">5</div>
+            <div class="box" id="6">6</div>
+            <div class="box" id="7">7</div>
+            <div class="box" id="8">8</div>
+            <div class="box" id="9">9</div>
+        </div>
+    </div>
+        
+   
+        <article>
+          <form>
+            <label for="player1">Player1 Name:</label>
+            <input type="text" id="player1" required /> <br>
+            <label for="player2">Player2 Name:</label>
+            <input type="text" id="player2" required /> <br>
+            <input type="submit" value="Continue" id="submit" />
+          </form>
+        </article>
+   
+        <article class="display-info"></article>
+      </section>
 </body>
 </html>
