@@ -35,6 +35,7 @@ class TicTacToe {
         // Create status element
         this.statusDisplay = document.createElement('div');
         this.statusDisplay.classList.add('center');
+ 
         this.statusDisplay.style.fontSize = 'large';
         this.statusDisplay.style.fontWeight = 'bold';
         this.statusDisplay.style.margin = '20px auto';
