@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: blue;
-  font-size: large;
+  color: black;
+  font-size: 72px;
   font-weight: bold;
 }
